@@ -1,0 +1,137 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.formContainer {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+.formButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #81bcfc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+  background-color: #0056b3;
+}
+
+.formButton:active {
+  background-color: #004099;
+}
+
+.formInput:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.divP {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.divB {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+.playButtons {
+  margin: 20px;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 10px;
+  border-color: blue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.playButtons:hover {
+  background-color: lightgreen;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  background-color: lightcyan;
+}
+section {
+  width: 100%;
+}
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  background-image: url("https://pngimg.com/d/dice_PNG74.png");
+  background-size: 200px 200px;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.scoreDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  height: 50px;
+}
+
+.scoreDisplay p {
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+::-webkit-scrollbar {
+  width: auto;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lightblue;
+  border-radius: 6px;
+}

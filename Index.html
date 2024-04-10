@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Stylesheet.css" />
+    <title>Pigs Game by Adam Barnell</title>
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1>The pig game</h1>
+      </div>
+      <div class="divP">
+        <p id="playerMessage">Welcome!</p>
+        <p id="message"></p>
+        <div class="scoreDisplay">
+          <p id="diceBox">0</p>
+          <p id="roundBox">0</p>
+          <p id="totalBox">0</p>
+          <p id="countBox">0</p>
+        </div>
+      </div>
+      <div>
+        <div class="formContainer">
+          <form id="userForm">
+            <div class="inputGroup">
+              <label for="userName">Enter Your Username:</label>
+              <input
+                type="text"
+                placeholder="Username"
+                id="userName"
+                class="formInput"
+              />
+            </div>
+            <button type="submit" id="usernameButton" class="formButton">
+              Register Username
+            </button>
+          </form>
+        </div>
+        <div class="divB">
+          <button id="newRoll" class="playButtons">
+            <img src="https://pngimg.com/d/dice_PNG74.png" alt="roll" />
+          </button>
+          <button id="holdRoll" class="playButtons">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/151/151955.png"
+              alt="hold"
+            />
+          </button>
+          <button id="newGame" class="playButtons">
+            <img
+              src="https://www.pngall.com/wp-content/uploads/5/Video-Player-PNG-Picture.png"
+              alt="play game"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="Javascript.js"></script>
+  </body>
+</html>
